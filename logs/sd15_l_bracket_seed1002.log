@@ -1,0 +1,26 @@
+============================================================
+ENGINEERING DRAWING GENERATION
+Model: sd15
+Checkpoint: stable-diffusion-v1-5/stable-diffusion-v1-5
+Component: l_bracket
+Seed: 1002
+Resolution: 512 x 512
+Inference steps: 20
+Device: CPU
+============================================================
+Loading model. This can take several minutes.
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:00<00:00,  5.59it/s]Loading pipeline components...:  43%|████▎     | 3/7 [00:00<00:00,  4.35it/s]/Users/mac/engineering-drawing-research/.venv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Loading pipeline components...:  71%|███████▏  | 5/7 [00:00<00:00,  7.52it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00,  9.17it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00,  7.62it/s]
+Model loaded in 1.5 seconds.
+Token indices sequence length is longer than the specified maximum sequence length for this model (83 > 77). Running this sequence through the model will result in indexing errors
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['shadows, no decorative elements.']
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:19<06:05, 19.24s/it] 10%|█         | 2/20 [00:26<03:36, 12.00s/it] 15%|█▌        | 3/20 [00:33<02:44,  9.69s/it] 20%|██        | 4/20 [00:40<02:18,  8.66s/it] 25%|██▌       | 5/20 [00:47<02:01,  8.08s/it] 30%|███       | 6/20 [00:54<01:48,  7.75s/it] 35%|███▌      | 7/20 [01:01<01:38,  7.57s/it] 40%|████      | 8/20 [01:08<01:30,  7.51s/it] 45%|████▌     | 9/20 [01:19<01:33,  8.51s/it] 50%|█████     | 10/20 [01:33<01:40, 10.08s/it] 55%|█████▌    | 11/20 [01:45<01:36, 10.69s/it] 60%|██████    | 12/20 [01:58<01:31, 11.45s/it] 65%|██████▌   | 13/20 [02:08<01:16, 10.90s/it] 70%|███████   | 14/20 [02:16<01:00, 10.12s/it] 75%|███████▌  | 15/20 [02:24<00:47,  9.51s/it] 80%|████████  | 16/20 [02:33<00:36,  9.20s/it] 85%|████████▌ | 17/20 [02:41<00:27,  9.03s/it] 90%|█████████ | 18/20 [02:49<00:17,  8.72s/it] 95%|█████████▌| 19/20 [02:58<00:08,  8.61s/it]100%|██████████| 20/20 [03:06<00:00,  8.66s/it]100%|██████████| 20/20 [03:06<00:00,  9.34s/it]
+
+Generation completed.
+Image: /Users/mac/engineering-drawing-research/results/sd15_l_bracket_seed1002.png
+Loading time: 1.5 seconds
+Generation time: 203.7 seconds
+Peak sampled process memory: 7670.2 MB
+Metadata: /Users/mac/engineering-drawing-research/logs/generation_metadata.jsonl
+Summary: /Users/mac/engineering-drawing-research/logs/generation_summary.csv

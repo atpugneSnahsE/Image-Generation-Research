@@ -1,0 +1,24 @@
+============================================================
+ENGINEERING DRAWING GENERATION
+Model: sd21
+Checkpoint: sd2-community/stable-diffusion-2-1-base
+Component: mounting_flange
+Seed: 1001
+Resolution: 512 x 512
+Inference steps: 20
+Device: CPU
+============================================================
+Loading model. This can take several minutes.
+Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]/Users/mac/engineering-drawing-research/.venv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00, 18.29it/s]Loading pipeline components...:  67%|██████▋   | 4/6 [00:00<00:00,  8.20it/s]Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  6.54it/s]Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.26it/s]
+Model loaded in 1.4 seconds.
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:20<06:21, 20.09s/it] 10%|█         | 2/20 [00:31<04:25, 14.77s/it] 15%|█▌        | 3/20 [00:40<03:26, 12.13s/it] 20%|██        | 4/20 [00:49<02:55, 10.99s/it] 25%|██▌       | 5/20 [00:59<02:41, 10.74s/it] 30%|███       | 6/20 [01:09<02:23, 10.27s/it] 35%|███▌      | 7/20 [01:19<02:12, 10.21s/it] 40%|████      | 8/20 [01:28<01:59,  9.99s/it] 45%|████▌     | 9/20 [01:37<01:46,  9.71s/it] 50%|█████     | 10/20 [01:47<01:38,  9.81s/it] 55%|█████▌    | 11/20 [01:57<01:27,  9.74s/it] 60%|██████    | 12/20 [02:07<01:19,  9.96s/it] 65%|██████▌   | 13/20 [02:17<01:08,  9.78s/it] 70%|███████   | 14/20 [02:26<00:57,  9.56s/it] 75%|███████▌  | 15/20 [02:38<00:52, 10.44s/it] 80%|████████  | 16/20 [02:53<00:46, 11.72s/it] 85%|████████▌ | 17/20 [03:02<00:32, 10.92s/it] 90%|█████████ | 18/20 [03:13<00:22, 11.06s/it] 95%|█████████▌| 19/20 [03:23<00:10, 10.70s/it]100%|██████████| 20/20 [03:33<00:00, 10.51s/it]100%|██████████| 20/20 [03:33<00:00, 10.69s/it]
+
+Generation completed.
+Image: /Users/mac/engineering-drawing-research/results/sd21_mounting_flange_seed1001.png
+Loading time: 1.4 seconds
+Generation time: 227.4 seconds
+Peak sampled process memory: 7250.8 MB
+Metadata: /Users/mac/engineering-drawing-research/logs/generation_metadata.jsonl
+Summary: /Users/mac/engineering-drawing-research/logs/generation_summary.csv

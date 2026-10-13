@@ -1,0 +1,26 @@
+============================================================
+ENGINEERING DRAWING GENERATION
+Model: ssd1b
+Checkpoint: segmind/SSD-1B
+Component: l_bracket
+Seed: 1003
+Resolution: 512 x 512
+Inference steps: 20
+Device: CPU
+============================================================
+Loading model. This can take several minutes.
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:03,  1.60it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:00<00:02,  2.15it/s]Loading pipeline components...:  57%|█████▋    | 4/7 [00:01<00:00,  4.12it/s]Loading pipeline components...:  86%|████████▌ | 6/7 [00:01<00:00,  5.75it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:01<00:00,  4.98it/s]
+Model loaded in 2.0 seconds.
+Token indices sequence length is longer than the specified maximum sequence length for this model (83 > 77). Running this sequence through the model will result in indexing errors
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['shadows, no decorative elements.']
+Token indices sequence length is longer than the specified maximum sequence length for this model (83 > 77). Running this sequence through the model will result in indexing errors
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['shadows, no decorative elements.']
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:09<02:53,  9.15s/it] 10%|█         | 2/20 [00:22<03:29, 11.63s/it] 15%|█▌        | 3/20 [00:31<02:57, 10.46s/it] 20%|██        | 4/20 [00:39<02:30,  9.40s/it] 25%|██▌       | 5/20 [00:47<02:15,  9.03s/it] 30%|███       | 6/20 [00:56<02:06,  9.07s/it] 35%|███▌      | 7/20 [01:05<01:55,  8.88s/it] 40%|████      | 8/20 [01:13<01:45,  8.76s/it] 45%|████▌     | 9/20 [01:22<01:36,  8.74s/it] 50%|█████     | 10/20 [01:31<01:27,  8.74s/it] 55%|█████▌    | 11/20 [01:40<01:18,  8.74s/it] 60%|██████    | 12/20 [01:48<01:08,  8.54s/it] 65%|██████▌   | 13/20 [01:57<01:00,  8.66s/it] 70%|███████   | 14/20 [02:06<00:52,  8.79s/it] 75%|███████▌  | 15/20 [02:15<00:44,  8.80s/it] 80%|████████  | 16/20 [02:23<00:34,  8.69s/it] 85%|████████▌ | 17/20 [02:32<00:26,  8.72s/it] 90%|█████████ | 18/20 [02:42<00:18,  9.31s/it] 95%|█████████▌| 19/20 [02:52<00:09,  9.26s/it]100%|██████████| 20/20 [03:00<00:00,  9.02s/it]100%|██████████| 20/20 [03:00<00:00,  9.03s/it]
+
+Generation completed.
+Image: /Users/mac/engineering-drawing-research/results/ssd1b_l_bracket_seed1003.png
+Loading time: 2.0 seconds
+Generation time: 194.6 seconds
+Peak sampled process memory: 10667.6 MB
+Metadata: /Users/mac/engineering-drawing-research/logs/generation_metadata.jsonl
+Summary: /Users/mac/engineering-drawing-research/logs/generation_summary.csv

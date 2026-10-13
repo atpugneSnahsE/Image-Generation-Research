@@ -1,0 +1,22 @@
+============================================================
+ENGINEERING DRAWING GENERATION
+Model: ssd1b
+Checkpoint: segmind/SSD-1B
+Component: pulley
+Seed: 1001
+Resolution: 512 x 512
+Inference steps: 20
+Device: CPU
+============================================================
+Loading model. This can take several minutes.
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:02,  2.92it/s]Loading pipeline components...:  57%|█████▋    | 4/7 [00:00<00:00,  8.09it/s]Loading pipeline components...:  86%|████████▌ | 6/7 [00:01<00:00,  4.78it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:01<00:00,  5.02it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:01<00:00,  5.12it/s]
+Model loaded in 1.9 seconds.
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:07<02:28,  7.80s/it] 10%|█         | 2/20 [00:16<02:32,  8.47s/it] 15%|█▌        | 3/20 [00:28<02:45,  9.76s/it] 20%|██        | 4/20 [00:38<02:40, 10.03s/it] 25%|██▌       | 5/20 [00:46<02:21,  9.41s/it] 30%|███       | 6/20 [00:56<02:12,  9.49s/it] 35%|███▌      | 7/20 [01:07<02:11, 10.14s/it] 40%|████      | 8/20 [01:16<01:55,  9.66s/it] 45%|████▌     | 9/20 [01:25<01:44,  9.51s/it] 50%|█████     | 10/20 [01:35<01:35,  9.58s/it] 55%|█████▌    | 11/20 [01:44<01:24,  9.39s/it] 60%|██████    | 12/20 [01:53<01:13,  9.22s/it] 65%|██████▌   | 13/20 [02:02<01:05,  9.34s/it] 70%|███████   | 14/20 [02:12<00:56,  9.38s/it] 75%|███████▌  | 15/20 [02:21<00:45,  9.20s/it] 80%|████████  | 16/20 [02:30<00:37,  9.27s/it] 85%|████████▌ | 17/20 [02:40<00:28,  9.58s/it] 90%|█████████ | 18/20 [02:50<00:19,  9.56s/it] 95%|█████████▌| 19/20 [02:59<00:09,  9.44s/it]100%|██████████| 20/20 [03:08<00:00,  9.36s/it]100%|██████████| 20/20 [03:08<00:00,  9.43s/it]
+
+Generation completed.
+Image: /Users/mac/engineering-drawing-research/results/ssd1b_pulley_seed1001.png
+Loading time: 1.9 seconds
+Generation time: 201.1 seconds
+Peak sampled process memory: 10686.9 MB
+Metadata: /Users/mac/engineering-drawing-research/logs/generation_metadata.jsonl
+Summary: /Users/mac/engineering-drawing-research/logs/generation_summary.csv

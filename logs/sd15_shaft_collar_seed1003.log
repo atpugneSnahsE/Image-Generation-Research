@@ -1,0 +1,24 @@
+============================================================
+ENGINEERING DRAWING GENERATION
+Model: sd15
+Checkpoint: stable-diffusion-v1-5/stable-diffusion-v1-5
+Component: shaft_collar
+Seed: 1003
+Resolution: 512 x 512
+Inference steps: 20
+Device: CPU
+============================================================
+Loading model. This can take several minutes.
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:00<00:00,  5.10it/s]Loading pipeline components...:  71%|███████▏  | 5/7 [00:00<00:00,  7.45it/s]Loading pipeline components...:  86%|████████▌ | 6/7 [00:00<00:00,  6.95it/s]/Users/mac/engineering-drawing-research/.venv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00,  7.30it/s]
+Model loaded in 1.5 seconds.
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:15<04:58, 15.71s/it] 10%|█         | 2/20 [00:26<03:46, 12.58s/it] 15%|█▌        | 3/20 [00:34<03:03, 10.82s/it] 20%|██        | 4/20 [00:42<02:34,  9.67s/it] 25%|██▌       | 5/20 [00:51<02:19,  9.31s/it] 30%|███       | 6/20 [01:00<02:07,  9.14s/it] 35%|███▌      | 7/20 [01:08<01:55,  8.87s/it] 40%|████      | 8/20 [01:16<01:44,  8.68s/it] 45%|████▌     | 9/20 [01:25<01:35,  8.65s/it] 50%|█████     | 10/20 [01:33<01:25,  8.59s/it] 55%|█████▌    | 11/20 [01:41<01:16,  8.46s/it] 60%|██████    | 12/20 [01:50<01:07,  8.42s/it] 65%|██████▌   | 13/20 [01:58<00:59,  8.48s/it] 70%|███████   | 14/20 [02:07<00:50,  8.47s/it] 75%|███████▌  | 15/20 [02:16<00:43,  8.60s/it] 80%|████████  | 16/20 [02:25<00:35,  8.79s/it] 85%|████████▌ | 17/20 [02:38<00:30, 10.16s/it] 90%|█████████ | 18/20 [02:49<00:20, 10.23s/it] 95%|█████████▌| 19/20 [02:57<00:09,  9.73s/it]100%|██████████| 20/20 [03:06<00:00,  9.32s/it]100%|██████████| 20/20 [03:06<00:00,  9.31s/it]
+
+Generation completed.
+Image: /Users/mac/engineering-drawing-research/results/sd15_shaft_collar_seed1003.png
+Loading time: 1.5 seconds
+Generation time: 199.0 seconds
+Peak sampled process memory: 7582.2 MB
+Metadata: /Users/mac/engineering-drawing-research/logs/generation_metadata.jsonl
+Summary: /Users/mac/engineering-drawing-research/logs/generation_summary.csv

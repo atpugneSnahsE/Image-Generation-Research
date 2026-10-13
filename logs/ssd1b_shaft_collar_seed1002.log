@@ -1,0 +1,22 @@
+============================================================
+ENGINEERING DRAWING GENERATION
+Model: ssd1b
+Checkpoint: segmind/SSD-1B
+Component: shaft_collar
+Seed: 1002
+Resolution: 512 x 512
+Inference steps: 20
+Device: CPU
+============================================================
+Loading model. This can take several minutes.
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:00<00:00, 15.81it/s]Loading pipeline components...:  57%|█████▋    | 4/7 [00:01<00:00,  3.09it/s]Loading pipeline components...:  86%|████████▌ | 6/7 [00:01<00:00,  4.62it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:01<00:00,  5.09it/s]
+Model loaded in 1.9 seconds.
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:08<02:34,  8.14s/it] 10%|█         | 2/20 [00:17<02:40,  8.93s/it] 15%|█▌        | 3/20 [00:28<02:46,  9.77s/it] 20%|██        | 4/20 [00:36<02:28,  9.30s/it] 25%|██▌       | 5/20 [00:45<02:12,  8.86s/it] 30%|███       | 6/20 [00:54<02:05,  8.96s/it] 35%|███▌      | 7/20 [01:03<01:56,  8.95s/it] 40%|████      | 8/20 [01:11<01:45,  8.77s/it] 45%|████▌     | 9/20 [01:20<01:35,  8.69s/it] 50%|█████     | 10/20 [01:28<01:26,  8.69s/it] 55%|█████▌    | 11/20 [01:37<01:18,  8.73s/it] 60%|██████    | 12/20 [01:45<01:08,  8.61s/it] 65%|██████▌   | 13/20 [01:54<00:59,  8.57s/it] 70%|███████   | 14/20 [02:03<00:52,  8.69s/it] 75%|███████▌  | 15/20 [02:11<00:43,  8.68s/it] 80%|████████  | 16/20 [02:20<00:34,  8.59s/it] 85%|████████▌ | 17/20 [02:28<00:25,  8.45s/it] 90%|█████████ | 18/20 [02:37<00:17,  8.51s/it] 95%|█████████▌| 19/20 [02:45<00:08,  8.58s/it]100%|██████████| 20/20 [02:54<00:00,  8.58s/it]100%|██████████| 20/20 [02:54<00:00,  8.72s/it]
+
+Generation completed.
+Image: /Users/mac/engineering-drawing-research/results/ssd1b_shaft_collar_seed1002.png
+Loading time: 1.9 seconds
+Generation time: 186.3 seconds
+Peak sampled process memory: 10699.5 MB
+Metadata: /Users/mac/engineering-drawing-research/logs/generation_metadata.jsonl
+Summary: /Users/mac/engineering-drawing-research/logs/generation_summary.csv

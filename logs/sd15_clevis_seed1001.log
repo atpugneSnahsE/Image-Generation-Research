@@ -1,0 +1,24 @@
+============================================================
+ENGINEERING DRAWING GENERATION
+Model: sd15
+Checkpoint: stable-diffusion-v1-5/stable-diffusion-v1-5
+Component: clevis
+Seed: 1001
+Resolution: 512 x 512
+Inference steps: 20
+Device: CPU
+============================================================
+Loading model. This can take several minutes.
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:02,  2.50it/s]/Users/mac/engineering-drawing-research/.venv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Loading pipeline components...:  43%|████▎     | 3/7 [00:00<00:00,  6.74it/s]Loading pipeline components...:  71%|███████▏  | 5/7 [00:00<00:00,  7.97it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:01<00:00,  6.64it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:01<00:00,  6.37it/s]
+Model loaded in 1.6 seconds.
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:20<06:37, 20.94s/it] 10%|█         | 2/20 [00:30<04:16, 14.24s/it] 15%|█▌        | 3/20 [00:39<03:23, 11.95s/it] 20%|██        | 4/20 [00:50<03:01, 11.32s/it] 25%|██▌       | 5/20 [00:59<02:41, 10.77s/it] 30%|███       | 6/20 [01:11<02:33, 10.96s/it] 35%|███▌      | 7/20 [01:20<02:16, 10.53s/it] 40%|████      | 8/20 [01:29<01:59,  9.97s/it] 45%|████▌     | 9/20 [01:40<01:51, 10.12s/it] 50%|█████     | 10/20 [01:48<01:37,  9.75s/it] 55%|█████▌    | 11/20 [01:57<01:24,  9.39s/it] 60%|██████    | 12/20 [02:06<01:13,  9.19s/it] 65%|██████▌   | 13/20 [02:15<01:03,  9.05s/it] 70%|███████   | 14/20 [02:23<00:53,  8.92s/it] 75%|███████▌  | 15/20 [02:32<00:44,  8.97s/it] 80%|████████  | 16/20 [02:41<00:35,  8.88s/it] 85%|████████▌ | 17/20 [02:49<00:25,  8.66s/it] 90%|█████████ | 18/20 [02:58<00:17,  8.62s/it] 95%|█████████▌| 19/20 [03:06<00:08,  8.71s/it]100%|██████████| 20/20 [03:16<00:00,  8.98s/it]100%|██████████| 20/20 [03:16<00:00,  9.83s/it]
+
+Generation completed.
+Image: /Users/mac/engineering-drawing-research/results/sd15_clevis_seed1001.png
+Loading time: 1.6 seconds
+Generation time: 210.8 seconds
+Peak sampled process memory: 7481.7 MB
+Metadata: /Users/mac/engineering-drawing-research/logs/generation_metadata.jsonl
+Summary: /Users/mac/engineering-drawing-research/logs/generation_summary.csv

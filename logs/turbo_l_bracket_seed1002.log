@@ -1,0 +1,25 @@
+============================================================
+ENGINEERING DRAWING GENERATION
+Model: turbo
+Checkpoint: stabilityai/sd-turbo
+Component: l_bracket
+Seed: 1002
+Resolution: 512 x 512
+Inference steps: 4
+Device: CPU
+============================================================
+Loading model. This can take several minutes.
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  20%|██        | 1/5 [00:00<00:00,  4.16it/s]Loading pipeline components...:  80%|████████  | 4/5 [00:00<00:00, 11.75it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:00<00:00,  7.51it/s]
+You have disabled the safety checker for <class 'diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion.StableDiffusionPipeline'> by passing `safety_checker=None`. Ensure that you abide to the conditions of the Stable Diffusion license and do not expose unfiltered results in services or applications open to the public. Both the diffusers team and Hugging Face strongly recommend to keep the safety filter enabled in all public facing circumstances, disabling it only for use-cases that involve analyzing network behavior or auditing its results. For more information, please have a look at https://github.com/huggingface/diffusers/pull/254 .
+Model loaded in 1.2 seconds.
+Token indices sequence length is longer than the specified maximum sequence length for this model (83 > 77). Running this sequence through the model will result in indexing errors
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['shadows, no decorative elements.']
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:10<00:30, 10.08s/it] 50%|█████     | 2/4 [00:13<00:12,  6.17s/it] 75%|███████▌  | 3/4 [00:17<00:05,  5.22s/it]100%|██████████| 4/4 [00:26<00:00,  6.69s/it]100%|██████████| 4/4 [00:26<00:00,  6.64s/it]
+
+Generation completed.
+Image: /Users/mac/engineering-drawing-research/results/turbo_l_bracket_seed1002.png
+Loading time: 1.2 seconds
+Generation time: 45.4 seconds
+Peak sampled process memory: 7056.5 MB
+Metadata: /Users/mac/engineering-drawing-research/logs/generation_metadata.jsonl
+Summary: /Users/mac/engineering-drawing-research/logs/generation_summary.csv

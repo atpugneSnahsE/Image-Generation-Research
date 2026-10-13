@@ -1,0 +1,34 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Presentation files
+*.pptx
+*.potx
+~$*.pptx
+
+# Model weights and downloaded checkpoints
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+.cache/
+huggingface/
+
+# Secrets and local config
+.env
+.env.*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
